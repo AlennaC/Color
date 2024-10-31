@@ -1,5 +1,5 @@
 .homepage {
-    background-image: url('photos/waterfall-rainbow.jpg');
+    background-image: url('photos/colors/waterfall-rainbow.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     text-align: center;
@@ -28,11 +28,23 @@
     rgb(207, 255, 196, 0.5), rgb(196, 247, 255, 0.5), rgb(181, 156, 244, 0.5));
 }
 
-.color-world a {
+.color-world a , .fruit-body a{
     text-decoration: none;
     position: absolute;
     top: 50px;
     left: 50px;
+}
+
+.fruit-body {
+    text-align: center;
+    align-content: center;
+    background-color: rgb(229, 221, 215);
+
+}
+.fruit-body h1{
+    font-size: 10vh;
+    color: rgb(118, 24, 15);
+    text-shadow: 2px 2px rgb(146, 86, 60);
 }
 
 /* creating a box for button-activated image to cover */
@@ -51,6 +63,21 @@
     background-size: 100% 100vh;
 }
 
+.fruit-body img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+table, th, td{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.fruit-body p {
+    font-size: 20px;
+}
+
 /* red button */
 button.red-btn:active, button.red-btn:focus {
     background-color: rgb(255, 152, 152);;
@@ -59,7 +86,7 @@ button.red-btn:active, button.red-btn:focus {
     background-color: rgb(255, 152, 152);
 }
 .color-world:has(button.red-btn:focus) .color-content {
-    background-image: url('photos/red-flowers.jpg');
+    background-image: url('photos/colors/red-flowers.jpg');
 }
 
 /* orange button */
@@ -70,7 +97,7 @@ button.orange-btn:active, button.orange-btn:focus {
     background-color: rgb(255, 200, 152);
 }
 .color-world:has(button.orange-btn:focus) .color-content {
-    background-image: url('photos/orange-trees.jpg');
+    background-image: url('photos/colors/orange-trees.jpg');
 }
 
 /* yellow button */
@@ -81,7 +108,7 @@ button.yellow-btn:active, button.yellow-btn:focus {
     background-color: rgb(255, 241, 152);
 }
 .color-world:has(button.yellow-btn:focus) .color-content {
-    background-image: url('photos/yellow-bird.jpg');
+    background-image: url('photos/colors/yellow-bird.jpg');
 }
 
 /* green button */
@@ -92,7 +119,7 @@ button.green-btn:active, button.green-btn:focus {
     background-color: rgb(207, 255, 196);
 }
 .color-world:has(button.green-btn:focus) .color-content {
-    background-image: url('photos/green-frog.jpg');
+    background-image: url('photos/colors/green-frog.jpg');
 }
 
 /* blue button */
@@ -103,7 +130,7 @@ button.blue-btn:active, button.blue-btn:focus {
     background-color: rgb(196, 247, 255);
 }
 .color-world:has(button.blue-btn:focus) .color-content {
-    background-image: url('photos/blue-ocean.jpg');
+    background-image: url('photos/colors/blue-ocean.jpg');
 }
 
 /* purple button */
@@ -114,7 +141,7 @@ button.purple-btn:active, button.purple-btn:focus {
     background-color: rgb(181, 156, 244);
 }
 .color-world:has(button.purple-btn:focus) .color-content {
-    background-image: url('photos/purple-geode.jpg');
+    background-image: url('photos/colors/purple-geode.jpg');
 }
 
 /* rainbow button */
@@ -126,5 +153,5 @@ button.rainbow-btn:active, button.rainbow-btn:focus {
     rgb(207, 255, 196), rgb(196, 247, 255), rgb(181, 156, 244));
 }
 .color-world:has(button.rainbow-btn:focus) .color-content {
-    background-image: url('photos/rainbow-bubble.jpg');
+    background-image: url('photos/colors/rainbow-bubble.jpg');
 }
