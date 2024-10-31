@@ -1,0 +1,114 @@
+.homepage {
+    background-image: url('https://images.unsplash.com/photo-1536350026819-0e3b769bff9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 8vh;
+}
+
+.homepage h1 {
+    font-size: 15vh;
+    color: rgb(20, 15, 118);
+    align-content: center;
+}
+
+.homepage a {
+    font-size: 5vh;
+}
+
+.header {
+    size: 100vw 20vh;
+}
+
+/* creating a box for button-activated image to cover */
+.color-content {
+    width: 100%;
+    height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.color-world {
+    text-align: center;
+    align-content: center;
+    background-color: rgb(245, 230, 220);
+}
+
+/* red button */
+button.red-btn:active, button.red-btn:focus {
+    background-color: rgb(255, 152, 152);;
+}
+.color-world:has(button.red-btn:focus) {
+    background-color: rgb(255, 152, 152);
+}
+.color-world:has(button.red-btn:focus) .color-content {
+    background-image: url('photos/red-flowers.jpg');
+}
+
+/* orange button */
+button.orange-btn:active, button.orange-btn:focus {
+    background-color: rgb(255, 200, 152);;
+}
+.color-world:has(button.orange-btn:focus) {
+    background-color: rgb(255, 200, 152);
+}
+.color-world:has(button.orange-btn:focus) .color-content {
+    background-image: url('photos/orange-trees.jpg');
+}
+
+/* yellow button */
+button.yellow-btn:active, button.yellow-btn:focus {
+    background-color: rgb(255, 241, 152);;
+}
+.color-world:has(button.yellow-btn:focus) {
+    background-color: rgb(255, 241, 152);
+}
+.color-world:has(button.yellow-btn:focus) .color-content {
+    background-image: url('photos/yellow-bird.jpg');
+}
+
+/* green button */
+button.green-btn:active, button.green-btn:focus {
+    background-color: rgb(207, 255, 196);;
+}
+.color-world:has(button.green-btn:focus) {
+    background-color: rgb(207, 255, 196);
+}
+.color-world:has(button.green-btn:focus) .color-content {
+    background-image: url('photos/green-frog.jpg');
+}
+
+/* blue button */
+button.blue-btn:active, button.blue-btn:focus {
+    background-color: rgb(196, 247, 255);;
+}
+.color-world:has(button.blue-btn:focus) {
+    background-color: rgb(196, 247, 255);
+}
+.color-world:has(button.blue-btn:focus) .color-content {
+    background-image: url('photos/blue-ocean.jpg');
+}
+
+/* purple button */
+button.purple-btn:active, button.purple-btn:focus {
+    background-color: rgb(181, 156, 244);;
+}
+.color-world:has(button.purple-btn:focus) {
+    background-color: rgb(181, 156, 244);
+}
+.color-world:has(button.purple-btn:focus) .color-content {
+    background-image: url('photos/purple-geode.jpg');
+}
+
+/* rainbow button */
+button.rainbow-btn:active, button.rainbow-btn:focus {
+    background-color: rgb(255, 192, 152);
+}
+.color-world:has(button.rainbow-btn:focus) {
+    background-image: linear-gradient(rgb(255, 152, 152), rgb(255, 200, 152), rgb(255, 241, 152),
+    rgb(207, 255, 196), rgb(196, 247, 255), rgb(181, 156, 244));
+}
+.color-world:has(button.rainbow-btn:focus) .color-content {
+    background-image: url('photos/rainbow-bubble.jpg');
+}
