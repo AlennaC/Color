@@ -1,5 +1,5 @@
 .homepage {
-    background-image: url('https://images.unsplash.com/photo-1536350026819-0e3b769bff9a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('photos/waterfall-rainbow.jpg');
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     text-align: center;
@@ -9,15 +9,30 @@
 .homepage h1 {
     font-size: 15vh;
     color: rgb(20, 15, 118);
+    text-shadow: 3px 2px rgb(64, 60, 146);
     align-content: center;
+    position: relative;
+    top: 60px;
 }
 
 .homepage a {
+    text-decoration: none;
     font-size: 5vh;
+    position: relative;
+    top: 25px;
 }
 
-.header {
-    size: 100vw 20vh;
+.highlight {
+    border-radius: 25%;
+    background-image: linear-gradient(rgb(255, 152, 152, 0.5), rgb(255, 200, 152, 0.5), rgb(255, 241, 152, 0.5),
+    rgb(207, 255, 196, 0.5), rgb(196, 247, 255, 0.5), rgb(181, 156, 244, 0.5));
+}
+
+.color-world a {
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 /* creating a box for button-activated image to cover */
@@ -33,6 +48,7 @@
     text-align: center;
     align-content: center;
     background-color: rgb(245, 230, 220);
+    background-size: 100% 100vh;
 }
 
 /* red button */
